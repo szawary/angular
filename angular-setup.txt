@@ -1,3 +1,22 @@
 1. nodejs.org programot telepíteni kell 14.15.4LTS
 
 2. VS code terminál ablakban node -v => meg tudjuk nézni, hogy van-e telepítve, és melyik.
+
+3. strukturavaltas-gyik a training 360 git-en
+powershell probléma megoldása - terminálban nem fut a parancs
+jobb gomb a win gombon - rendszergazdaként powershell ablak
+majd vs code újraindítás - ha megy minden akkor nem kell ezt.
+
+4. terminálban: npm i @angular/cli -g 
+ha már telepítve van akkor frissít
+
+5. git clone https://github.com/Training360/str-angular-001.git
+
+6. "ng" a terminálban parancs kiadás, ha működik, akkor nincs hiba
+
+7. ng new ang-basic-setup // új projekt indítása
+y/n/scss/
+
+8. be kell lépni a projekt mappába majd code . -r
+
+9. angular live server indítása: ng serve -o

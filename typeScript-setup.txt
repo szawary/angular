@@ -1,0 +1,15 @@
+npm -v  // milyen verzió az npm, 5 felett már jó
+ha nincs fent, akkor nodejs.org-ról le lehet tölteni
+
+npm i -g typesscript  // typesscript telepítése
+
+tsc -v // verzió számának megtekintése
+
+typesscript kiterjesztése a .ts
+
+fájl fordítás js kódra: tsc fájlneve.ts
+
+konfigruációs fájl: tsconfig.json
+részletesen testre szabjuk a fordítás folyamatát
+
+

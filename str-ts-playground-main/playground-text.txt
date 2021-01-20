@@ -1,0 +1,10 @@
+https://github.com/Training360/str-ts-playground
+
+
+az adott mappában ahol a package.json van - npm i vel 
+telepítem, frissítem
+
+npm run serve // ezzel futtatom a live servert
+
+
+1:18-nál tartok ...

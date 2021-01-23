@@ -13,19 +13,23 @@ export default class calculator {
      * Inicializáld a tömböt, legyen legalább két eleme.
      * @type {Array} users - minden elem egy felhasználó.
      */
+    users: { name: string, email: string }[] = [{ name: 'Laci', email: 'laci@gmail.com' }, { name: 'Agi', email: 'agi@gmail.com' }]
+
+    /**
+ * A tömb minden eleme legyen egy objektum, ami egy terméket reprezentál.
+ * Kötelező elemek: name<string>, price<number>, stock<number>.
+ * Opcionális elemek: active<boolean>.
+ * Inicializáld a tömböt, legyen legalább két eleme.
+ * @type {Array} products - minden elem egy termék
+ */
+    products: { name: string, price: number, stock: number, active: boolean }[] = [{ name: 'termék1', price: 5000, stock: 55, active: true }, { name: 'termék1', price: 5000, stock: 55, active: true }]
 
 
-    /** 
-     * A tömb minden eleme legyen egy objektum, ami egy terméket reprezentál.
-     * Kötelező elemek: name<string>, price<number>, stock<number>.
-     * Opcionális elemek: active<boolean>.
-     * Inicializáld a tömböt, legyen legalább két eleme.
-     * @type {Array} products - minden elem egy termék
-     */
 
-
-    /** 
+    /**
      * Inicializálj egy tuple típust, azaz adj neki értéket is.
-     * @type {Tuple} role - number, string, boolean. 
+     * @type {Tuple} role - number, string, boolean.
      */
-    role: [number, string, boolean] = [10, 'hello', true];
+    role: [number, string, boolean] = [111, 'valami', true]
+
+}

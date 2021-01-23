@@ -1,5 +1,5 @@
 # TypeScript basic típusok
-
+ 
 ## Kezdő lépések
 - Lépj be a letöltött mappába és állítsd be a projektet:
 - `cd ts-basic-practice001-types`

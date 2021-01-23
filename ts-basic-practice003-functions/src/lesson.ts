@@ -6,7 +6,9 @@ export default class calculator {
      * @param {number} b - a második szám.
      * @returns {number} a két paraméterként kapott szám összege.
      */
-    static sum() {}
+    static sum(a: number, b: number): number {
+        return a + b
+    }
 
     /** 
      * Egészítsd ki a difference metódust.
@@ -15,5 +17,7 @@ export default class calculator {
      * @param {number} b - a második szám.
      * @returns {number} a két paraméterként kapott szám különbsége.
      */
-    static difference() {}
+    static difference(a: number, b: number): number {
+        return a - b
+    }
 }

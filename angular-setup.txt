@@ -20,3 +20,6 @@ y/n/scss/
 8. be kell lépni a projekt mappába majd code . -r
 
 9. angular live server indítása: ng serve --o
+
+10. komponens létrehozása
+ng generate component watch // óra komponens

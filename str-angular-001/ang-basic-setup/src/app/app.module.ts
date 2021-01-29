@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { WathcComponent } from './wathc/wathc.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WathcComponent
+    WathcComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule

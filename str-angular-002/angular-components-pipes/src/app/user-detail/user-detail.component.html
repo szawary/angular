@@ -1,0 +1,10 @@
+<p>{{user?.id}}</p>
+<!-- a kérdőjel miatt csak akkor megy tovább a 
+    program, ha user létezik, nem biztos hogy létezik
+    mögé teszem a kérdőjelet 
+-->
+<p>{{user?.name}}</p>
+<p>{{user?.email}}</p>
+<button (click)="onDeleteUser()">
+    delete
+</button>

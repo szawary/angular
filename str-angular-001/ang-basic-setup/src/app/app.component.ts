@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Hero } from './model/hero';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Time:';
-
-  constuctor() {
-
+  myHero: Hero = {
+    name: "Magneto",
+    address: "New Your",
+    superpower: "magnetic",
   }
+
 }

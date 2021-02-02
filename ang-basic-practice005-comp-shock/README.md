@@ -16,7 +16,7 @@
 ## 1. Icon
 ![IconComponent](src/assets/diagrams/icon-component.JPG)
 - Feladata: egy megadott font-awesome ikont jelenít meg.
-- Létrehozás: `ng g c common/icon`
+- Létrehozás: `ng g c common/icon` 
 > TUDÁS: ha az a componens neve, hogy `icon`, az osztály `IconComponent` lesz, a szelektor pedig `app-icon`.
 
 - Bejövő adat: `@Input() icon: string = '';`

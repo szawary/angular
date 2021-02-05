@@ -14,8 +14,9 @@
 - PONTOSAN EBBEN A SORRENDBEN NYISD MEG A FÁJLOKAT ÉS DOLGOZZ!
 - `src\app\user-list\user-list.component.scss`
 - `src\app\pipe\filter.pipe.ts`
+
 - `src\app\pipe\sorter.pipe.ts`
-- `src\app\user-list\user-list.component.ts`
+
 - `src\app\user-list\user-list.component.ts`
 - `src\app\user-list\user-list.component.html`
 - `src\app\app.component.ts`

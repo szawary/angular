@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { User } from './model/user';
 import { UserService } from './service/user.service';
 
@@ -10,6 +10,24 @@ import { UserService } from './service/user.service';
 export class AppComponent {
   title = 'The good Angular programmer';
 
-  constructor() {}
+  users: User[] = this.userService.list;
+
+  currentUser: User = new User();
+
+  constructor(
+    private userService: UserService,
+  ) {}
+
+  onSelectUser(user: User): void{
+    this.currentUser = user;
+  }
+  onUpdateUser(user:User):void{
+    this.userService.updateUser(user);
+  }
+  onDeleteUser(user:User):void{
+    this.userService.removeUser(user);
+  }
 
 }
+
+

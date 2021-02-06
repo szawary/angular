@@ -8,11 +8,11 @@ import { User } from 'src/app/model/user';
 })
 export class DataRowComponent implements OnInit {
   @Input() dataRow: User = new User();
-  @Output() selectClick: EventEmitter<User>;
-  @Output() updateClick: EventEmitter<User>;
-  @Output() deleteClick: EventEmitter<User>;
+  @Output() selectClick: EventEmitter<User> = new EventEmitter();
+  @Output() updateClick: EventEmitter<User> = new EventEmitter();
+  @Output() deleteClick: EventEmitter<User> = new EventEmitter();
 
-  onSelectButtonClick(): void {
+  onSelectClicked(): void {
     this.selectClick.emit(this.dataRow);
   };
   onUpdateClicked(): void {

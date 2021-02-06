@@ -16,7 +16,12 @@ export class ActionButtonGroupComponent implements OnInit {
   onSelectButtonClick(): void {
     this.selectClick.emit(true);
   }
-
+onUpdateButtonClick(): void {
+  this.updateClick.emit(true);
+}
+onDeleteButtonClick(): void {
+  this.deleteClick.emit(true);
+}
 
 
   ngOnInit(): void {

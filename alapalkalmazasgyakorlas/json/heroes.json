@@ -1,0 +1,16 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Lucy",
+      "address": "Nyh",
+      "superpower": "nincs"
+    },
+    {
+      "id": 3,
+      "name": "Jack",
+      "address": "Nyíregyháza",
+      "superpower": "reading"
+    }
+  ]
+}
